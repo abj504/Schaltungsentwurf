@@ -46,5 +46,52 @@ Die Idee wird sein eine Anwendung zu realisieren, die Schaltungsentwürfe für e
 
 	- jede Änderung die durchgeführt wird, wird aktualisiert und für alle sichtbar
 
+===================================
+=== Feedback Alpers, 2016-10-24 ===
+===================================
 
+=== 1.) Formales
 
+== 1.1.) Vermischung mit anderen Bereichen
+
+Leider mischen Sie hier Struktur und Usability, was nicht der Fall sein soll:
+
+- Sie geben eine Struktur mit Menüleiste vor.
+- Sie reden von drag-and-drop.
+
+Bei Ihnen ist aber klar erkennbar, was die Anwendung leisten soll. Überarbeiten Sie das bitte.
+
+=== 2.) Verteilte Anwendung
+
+== 2.1.) Unklar
+
+- damit beliebig viele Nutzer oder zum Beispiel zwei Schüler oder Studenten an einem Entwurf arbeiten können, gibt es an der Seite einen Button/ Modus „Entwickler Interaktivität“
+
+Es ist nicht klar, wie eine Seite, auf der eine einzelner Button zu sehen ist, die Anwendung verteilt macht. Der nachfolgende Punkt ist da leider ebenfalls nicht hilfreich. Es scheint so, als wenn Sie zu kompliziert denken. Der Entwurf einer verteilten Anwendung mit HTML/PHP/MySQL ist sehr einfach; die Programmierung der Server ist da eine ganz andere Sache, aber mit der brauchen Sie sich im Rahmen dieses Projekts nicht herumzuschlagen.
+
+== 2.2.) Missverständnis
+
+Oben haben Sie festgelegt, dass es eine Möglichkeit zum Speichern und Laden geben soll. Das ist aber gänzlich unnötig: Bei einer verteilten Anwendung wird ohnehin jeder Schritt auf dem Server ausgeführt. Also brauchen wir hier gar keine Speicherfunktion; wir brauchen lediglich eine Möglichkeit, damit Nutzer zwischen Ihren Entwürfen wechseln können.
+
+=== 3.) Adaptive Anwendung
+
+== 3.1.) Missverständnis
+
+Was Sie beschreiben hat mit einer adaptiven Anwendung nichts gemein: Die wird von sich aus aktiv und bietet damit etwas an, dass von manchen Menschen für künstliche Intelligenz gehalten wird, obwohl es damit nichts zu tun hat. Administratoren und Contributoren sind Menschen. Sie beschreiben an dieser Stelle etwas, das in den Bereich Zugriffsrechte fällt, das also eher etwas mit einer verteilten Anwendung zu tun hat.
+
+=== 4.) Zusammenfassung
+
+Bislang haben Sie einen Anfang für eine Anwendung im Sinne des Projekts 1 erstellt. Zwar vermischen Sie hier hier Struktur, Entwurf, aber der Entwurfsanteil ist zumindest noch leicht erkennbar. Außerdem haben Sie schon weitere Möglichkeiten im Bereich adative und verteilte Anwendung angedacht, um über die ausgegebene Idee hinauszugehen, aber leider ist das noch nicht klar genug ausformuliert, um es umzusetzen.
+
+Tipp: Denken Sie an Aufgaben eines Dozenten in Elektrotechnik, um die Beschreibung zu erweitern ...
+
+=================================================
+=== Wertung 2: Projektentwurf: gesamt: 0 / 10 ===
+=================================================
+- Knappe aber klare Beschreibung 0 bis 5 Pk.: 2 
+- Pro Strategie des Computers, die die individuellen Züge des Spielers/Nutzers adaptiert 0 bis 5 Pk.: 0 
+=== (Malus beim Projektentwurf) ===
+- Werbeslogans u.ä. -5 bis 0 Pk.: 0 
+- Designaspekte -5 bis 0 Pk.: -2 
+- Voraussetzung bekannten Wissens -5 bis 0 Pk.: 0 
+(Dies ist keine abschließende Wertung.)
